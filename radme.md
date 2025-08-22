@@ -1,6 +1,8 @@
 # features dimension
 
-** same as og, Key Issues:
+**same as og
+
+Key Issues:
 Inconsistent MFCC Parameters: Your mfcc function ignores the passed frame_length and hop_length, using librosa's defaults instead. This causes mismatches with other features.
 
 Feature Dimensions: The current stacking (np.hstack) flattens all features into a 1D vector, which isn't suitable for Conv1D (expects 2D input: [timesteps, features]).
