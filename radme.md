@@ -14,3 +14,7 @@ Augmentation Handling: Augmented features are stacked vertically, creating multi
 
 
 # NO feature saving for reuse
+
+# FIXED y=data for keyword instead of argument
+
+# mfcc inconsis compulsory to fix
