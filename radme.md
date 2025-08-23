@@ -17,4 +17,6 @@ Augmentation Handling: Augmented features are stacked vertically, creating multi
 
 # FIXED y=data for keyword instead of argument
 
-# mfcc inconsis compulsory to fix
+# mfcc inconsis compulsory to 
+
+# still artificial dime expan with 3rd as 1
